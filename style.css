@@ -1,0 +1,38 @@
+body {
+  background-color: wheat;
+  margin: 0%;
+}
+h1 {
+  text-align: left;
+}
+.wraper {
+  display: flex;
+  justify-content: center;
+}
+.wraper > * {
+  flex: 1 1 0;
+}
+.img {
+  padding: 5rem;
+}
+.text {
+  font-size: 2rem;
+  /* float: right; */
+  padding: 5rem;
+}
+
+img {
+  max-width: 100%;
+  /* margin: 5%; */
+  border-radius: 50%;
+  box-shadow: 10px 10px 20px 5px black;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+footer {
+  background-color: burlywood;
+  padding: 2rem;
+  text-align: center;
+}
